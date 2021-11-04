@@ -1,0 +1,82 @@
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    src: url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+}
+
+.tg-select_input-inner {
+    height: 50px !important;
+    width: 125% !important;
+}
+
+.tg-select_input {
+    color: #676767;
+    float: left;
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.tg-select_input:after {
+    content: '\f000';
+    font-family: "Font Awesome 5 Free" !important;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    top: 0;
+    right: -40px;
+    z-index: 100;
+    color: #676767;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: inherit;
+    line-height: 49px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ff7550; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 14px 22px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #Fee133; /* Add a dark-grey background on hover */
+    /*box-shadow: 0 14px 28px rgb(0 0 0 / 12%), 0 10px 10px rgb(0 0 0 / 2%);*/
+}
+
+.tg-bthree {
+    float: right;
+    color: #000000;
+}
+
+.google_map-wrapper {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#lightgallery img {
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .tg-select_input-inner {
+        width: 100% !important;
+    }
+
+    .tg-select_input:after {
+        right: 10px;
+    }
+}

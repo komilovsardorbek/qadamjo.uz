@@ -1,0 +1,14 @@
+.tg-share_news {
+ float: right;
+ display: flex;
+ justify-items: center;
+}
+.tg-share_news li {
+ list-style-type: none;
+ padding: 7px;
+ margin: 30px 7px;
+}
+.tg-share_news li a i {
+ font-size: 35px;
+}
+
